@@ -1,3 +1,45 @@
 body{
   background-color: red;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a{
+  color: purple;
+}
+
+header{
+  background-color: white;
+  background-size: cover;
+}
+
+h2{
+  font-size: 4em;
+}
+
+h3{
+  font-size: 2em;
+}
+
+.exciting-topic{
+  background-color: white;
+  color: #503226;
+}
+
+.exciting-content{
+  color: #A58B8B;
+}
+
+.description-link{
+  color: white;
+  font-weight: bold;
+}
+
+footer{
+  background-color: white;
+  color: #A58B8B;
 }
