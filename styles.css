@@ -1,15 +1,69 @@
 body{
   background-color: red;
   color: white;
-  font-family: sans-serif;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-family: 'Averia Serif Libre', sans-serif;
+  margin: 0;
 }
 
-a{
-  color: purple;
+.catalog-categories{
+  list-style: none;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.shopping-nav{
+  list-style: none;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.nav-horizontal-list{
+  display: inline;
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.logo{
+  padding-left: 50px;
+}
+
+a.nav{
+  color: #FF512F;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
+a.one{
+  color: white;
+}
+
+a.two{
+  color: #503226;
+}
+
+a.three{
+  color: red;
+  background-color: white;
+  padding: 10px 20px;
+  border: 50px;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.nav-gray{
+  color: #A58B8B;
+}
+
+sup{
+  vertical-align:text-top;
+  font-size: 20px;
 }
 
 header{
@@ -17,15 +71,57 @@ header{
   background-size: cover;
 }
 
+h1{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
 h2{
-  font-size: 4em;
+  color: #503226;
+  font-size: 30px;
 }
 
 h3{
-  font-size: 2em;
+  color: #503226;
+  font-size: 25px;
+}
+
+h4{
+  margin-top: 0;
+  margin-bottom: 100px;
+  width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #FFEEEB;
+  color: #503226;
+  font-size: 27px;
+  text-align: center;
+}
+
+.top-display-panel{
+  padding: 60px 225px;
+}
+
+.display-description{
+  margin: 30px 0px;
+}
+
+.recommended-panel{
+  padding-top: 0;
+  padding-bottom: 60px;
+  padding-left: 225px;
+  padding-right: 225px;
+}
+
+.price{
+  font-size: 30px;
 }
 
 .exciting-topic{
+  margin: 0px;
+  padding: 60px 225px;
   background-color: white;
   color: #503226;
 }
@@ -39,7 +135,14 @@ h3{
   font-weight: bold;
 }
 
+.collection-season{
+  color: #503226;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
 footer{
+  padding-left: 50px;
   background-color: white;
   color: #A58B8B;
 }
